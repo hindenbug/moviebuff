@@ -1,7 +1,7 @@
 (ns server.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
-            [moviebuff.handler :refer :all]))
+            [server.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"
